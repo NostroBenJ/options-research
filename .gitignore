@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Downloaded data is cached locally and never committed: the scripts fetch it
+# from Yahoo Finance, FRED and CBOE, whose terms don't allow redistribution.
+*.csv
+
+# Charts are regenerated with --plot.
+*.png
